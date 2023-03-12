@@ -1,4 +1,4 @@
-/**FS WD LEVEL 3 TASK 10 - DEVELOPER PORTFOLIO PROJECTS PAGE**/
+/**DEVELOPER PORTFOLIO PROJECTS PAGE**/
 
 import Layout from "../components/Layout";
 import Projects from "../components/projects-components/Projects";

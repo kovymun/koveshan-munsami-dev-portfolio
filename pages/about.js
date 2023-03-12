@@ -1,4 +1,4 @@
-/**FS WD LEVEL 3 TASK 10 - DEVELOPER PORTFOLIO ABOUT PAGE**/
+/**DEVELOPER PORTFOLIO ABOUT PAGE**/
 
 import Layout from "../components/Layout";
 import AboutMe from "../components/about-page-components/AboutMe";

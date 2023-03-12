@@ -1,5 +1,4 @@
-/**FS WD LEVEL 3 TASK 10 - DEVELOPER PORTFOLIO HERO PAGE**/
-/**KINDLY REFER TO THE END OF THIS DOCUMENT FOR ALL REFERENCES**/
+/**DEVELOPER PORTFOLIO HERO PAGE**/
 
 import Layout from "../components/Layout";
 import Hero from "../components/hero-page-components/Hero";
@@ -16,6 +15,3 @@ export default () => {
     </Layout>
   );
 };
-
-/**REFERENCES**/
-/* Examples provided by Hyperion Dev as part of the package for this task. */

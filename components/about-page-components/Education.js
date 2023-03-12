@@ -1,76 +1,37 @@
-/**FS WD LEVEL 3 TASK 10 - DEVELOPER PORTFOLIO EDUCATION DETAILS COMPONENT**/
+/**DEVELOPER PORTFOLIO EDUCATION DETAILS COMPONENT**/
 /**KINDLY REFER TO THE END OF THIS DOCUMENT FOR ALL REFERENCES**/
 
 /*
 Developer Portfolio - Education details Component:
 The component renders all my education history, to be included as a child component in the "about" page of the Developer Portfolio website.
 
-All stylings for this component are implemented using CSS in JS framework called "styled-jsx". Refer to the references section for more details.
+All stylings for this component are implemented using standard CSS, and CSS framework "Tailwind CSS". Refer to the references section for more details.
 */
 
 export default function Education() {
   return (
-    <div className="education-section">
-      <div className="education-container">
-        <h2>Education</h2>
-        <div className="edu-v-line"></div>
-        <div className="education-details">
-          <p className="education-qual">
+    <div className="education-section flex justify-center items-center w-full h-screen bg-charcoal-black text-white">
+      <div className="education-container flex justify-around items-center w-3/4">
+        <h2 className="education-title text-4xl font-medium">Education</h2>
+        <div className="edu-v-line border-l-2 border-white"></div>
+        <div className="education-details w-2/3">
+          <p className="education-qual text-xl mb-4">
             NDip. Electrical Engineering - Light Current (Major:
             Telecommunications) | Durban University of Technology (DUT) | 2008
           </p>
-          <p className="education-qual">
+          <p className="education-qual text-xl">
             Full Stack Web Development Bootcamp | Hyperion Dev | 2023
           </p>
         </div>
       </div>
-      <style jsx>
-        {`
-          .education-section {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 100vh;
-            background-color: #282a3a;
-            color: white;
-          }
-
-          .education-container {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            width: 70%;
-          }
-
-          .education-container > h2 {
-            font-size: 2rem;
-          }
-
-          .edu-v-line {
-            border-left: 2px solid white;
-            height: 40vh;
-          }
-
-          .education-details {
-            width: 70%;
-          }
-
-          .education-qual {
-            margin-bottom: 0.8em;
-            font-size: 1.2rem;
-          }
-        `}
-      </style>
     </div>
   );
 }
 
 /**REFERENCES**/
 /*
-CSS in JS framework called styled-jsx:
-Styling for this Developer Portfolio implemented using JavaScript framework called "styled-jsx".
-Referenced the Hyperion Dev: Next.js I pdf file and Styled-JSX Github repo for implementation and usage information.
-HyperionDev(2021). Next.js I Pages (7-8)
-https://github.com/vercel/styled-jsx
+Tailwind CSS:
+Tailwind CSS is a utility-first CSS framework, enabling me to style this portfolio faster and easier.
+Referenced the Tailwind CSS documentation website for all utility classes used to style this portfolio website.
+https://tailwindcss.com/
 */

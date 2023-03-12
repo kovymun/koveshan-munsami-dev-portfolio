@@ -1,0 +1,81 @@
+/**DEVELOPER PORTFOLIO - CSS FILE**/
+
+/* Importing a font, referenced from "Google Fonts", into the project. */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+/* Resetting all default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/***********************************************************************************************************************************************************/
+/* Stylings for the HERO Page */
+.hero-title,
+.hero-role,
+.code-icon {
+  font-size: 4rem;
+}
+
+/***********************************************************************************************************************************************************/
+/* Stylings for the ABOUT ME section */
+.about-v-line {
+  height: 60vh;
+}
+
+/***********************************************************************************************************************************************************/
+/* Stylings for the EDUCATION section */
+.edu-v-line {
+  height: 40vh;
+}
+
+/***********************************************************************************************************************************************************/
+/* Stylings for the WORK EXPERIENCE section */
+.work-exp-container {
+  width: 70%;
+}
+
+.exp-details {
+  width: 55%;
+}
+
+.exp-v-line {
+  height: 40vh;
+}
+
+/***********************************************************************************************************************************************************/
+/* Stylings for the SKILLS section */
+.skills-title {
+  width: 30%;
+}
+
+.skill-items {
+  margin-bottom: 0.4em;
+}
+
+.skill-items > p {
+  border-radius: 0.5em;
+  margin: 0.8em 0.8em 0 0;
+}
+
+.skills-v-line {
+  height: 40vh;
+}
+
+/***********************************************************************************************************************************************************/
+/* Stylings for the PROJECT Page */
+.projects-container {
+  width: 70%;
+}
+
+.projects-v-line {
+  height: 50vh;
+}
+
+/***********************************************************************************************************************************************************/
+/* Stylings for the CONTACT Page */
+.contact-v-line {
+  height: 50vh;
+}

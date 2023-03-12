@@ -1,4 +1,4 @@
-/**FS WD LEVEL 3 TASK 10 - DEVELOPER PORTFOLIO CONTACT DETAILS PAGE**/
+/**DEVELOPER PORTFOLIO CONTACT DETAILS PAGE**/
 
 import Layout from "../components/Layout";
 import Contact from "../components/contact-page-components/Contact";

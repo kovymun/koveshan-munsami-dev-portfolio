@@ -1,20 +1,7 @@
-/**FS WD LEVEL 3 TASK 10 - DEVELOPER PORTFOLIO PORTFOLIO DETAILS COMPONENT**/
+/**DEVELOPER PORTFOLIO WEB PROJECT DETAILS COMPONENT**/
 /**KINDLY REFER TO THE END OF THIS DOCUMENT FOR ALL REFERENCES**/
 
 import Link from "next/link";
-
-/*Stylings for the Portfolio Web Development Project Links*/
-const projectLinkStyle = {
-  color: "black",
-  backgroundColor: "white",
-  textDecoration: "none",
-  borderRadius: "0.5em",
-  width: "100%",
-  textAlign: "center",
-  padding: "0.5em 0.8em",
-  marginBottom: "2em",
-  fontSize: "1.2em",
-};
 
 /*
 Developer Portfolio - Web Development Projects Component:
@@ -25,64 +12,41 @@ The NextJS Link API is used in this component to allow the viewer to review my c
 The API allows the viewer to review the following projects:
 * Github repository link to a front-end online e-commerce website, built using HTML, CSS and JavaScript.
 * Deployed Memory Card Game App, built using ReactJS. (Deployed on Render Web hosting service)
+* Github repository link to a full stack iTunes Search app, built using ReactJS, ExpressJS, Bootstrap V5 and CSS.
 
-All stylings for this component are implemented using CSS in JS framework called "styled-jsx". Refer to the references section for more details.
+All stylings for this component are implemented using standard CSS, and CSS framework "Tailwind CSS". Refer to the references section for more details.
 */
 
 export default function Projects() {
   return (
-    <div className="projects-section">
-      <div className="projects-container">
-        <h2>Projects</h2>
-        <div className="projects-v-line"></div>
-        <div className="projects-details">
+    <div className="projects-section flex justify-center items-center bg-charcoal-black text-white w-full h-screen">
+      <div className="projects-container flex justify-around items-center">
+        <h2 className="projects-title text-4xl">Projects</h2>
+        <div className="projects-v-line border-l-2 border-white"></div>
+        <div className="projects-details flex flex-col justify-center items-center">
           <Link
-            style={projectLinkStyle}
+            className="project-link rounded-lg text-black bg-white no-underline w-full text-xl text-center py-2 px-3.5 mb-8"
             href="https://github.com/kovymun/my-online-store.git"
             target="_blank"
           >
             Front-end Online E-commerce website/store
           </Link>
           <Link
-            style={projectLinkStyle}
+            className="project-link rounded-lg text-black bg-white no-underline w-full text-xl text-center py-2 px-3.5 mb-8"
             href="https://reactjs-card-game.onrender.com/mystery-mania-rules"
             target="_blank"
           >
             ReactJS Memory Card Game
           </Link>
+          <Link
+            className="project-link rounded-lg text-black bg-white no-underline w-full text-xl text-center py-2 px-3.5 mb-8"
+            href="https://github.com/kovymun/itunes-search-app"
+            target="_blank"
+          >
+            iTunes Search App
+          </Link>
         </div>
       </div>
-      <style jsx>{`
-        .projects-section {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background-color: #282a3a;
-          color: white;
-          height: 100vh;
-        }
-
-        .projects-container {
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-          width: 70%;
-        }
-
-        .projects-container > h2 {
-          font-size: 2em;
-        }
-
-        .projects-details {
-          display: flex;
-          flex-direction: column;
-        }
-
-        .projects-v-line {
-          border-left: 2px solid white;
-          height: 40vh;
-        }
-      `}</style>
     </div>
   );
 }
@@ -96,9 +60,8 @@ Referenced the Hyperion Dev: Next.js I pdf file and NextJS documentation website
 HyperionDev(2021). Next.js I Pages (6-7)
 https://nextjs.org/docs/api-reference/next/link
 
-CSS in JS framework called styled-jsx:
-Styling for this Developer Portfolio implemented using JavaScript framework called "styled-jsx".
-Referenced the Hyperion Dev: Next.js I pdf file and Styled-JSX Github repo for implementation and usage information.
-HyperionDev(2021). Next.js I Pages (7-8)
-https://github.com/vercel/styled-jsx
+Tailwind CSS:
+Tailwind CSS is a utility-first CSS framework, enabling me to style this portfolio faster and easier.
+Referenced the Tailwind CSS documentation website for all utility classes used to style this portfolio website.
+https://tailwindcss.com/
 */

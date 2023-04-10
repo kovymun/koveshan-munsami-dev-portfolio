@@ -79,3 +79,10 @@
 .contact-v-line {
   height: 50vh;
 }
+
+/* Styling for the hashing example image on the Hashing in JavaScript article Page */
+.hashing-example {
+  width: 60%;
+  height: 40vh;
+  object-fit: contain;
+}

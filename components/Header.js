@@ -19,7 +19,7 @@ All stylings for this component are implemented using standard CSS, and CSS fram
 
 export default function Header() {
   return (
-    <div className="header flex justify-start items-center w-full h-16 bg-charcoal-black text-white fixed px-2">
+    <div className="header flex justify-start items-center w-full h-16 bg-charcoal-black text-white sticky top-0 px-2">
       <div className="nav-link-container flex justify-evenly w-2/5">
         <Link className="no-underline text-white" href="/">
           Home
@@ -29,6 +29,9 @@ export default function Header() {
         </Link>
         <Link className="no-underline text-white" href="/projects">
           Projects
+        </Link>
+        <Link className="no-underline text-white" href="/blog">
+          Blog
         </Link>
         <Link className="no-underline text-white" href="/contact">
           Contact

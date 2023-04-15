@@ -30,20 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/blog.js"
     ],
-    "/contact": [
+    "/interfaces": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/contact.js"
-    ],
-    "/hashing": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/hashing.js"
-    ],
-    "/projects": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/projects.js"
+      "static/chunks/pages/interfaces.js"
     ]
   },
   "ampFirstPages": []

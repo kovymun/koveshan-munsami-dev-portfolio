@@ -80,9 +80,23 @@
   height: 50vh;
 }
 
-/* Styling for the hashing example image on the Hashing in JavaScript article Page */
-.hashing-example {
+/* Stylings for the images on the Blog Articles */
+.hashing-example,
+.js-object,
+.strict-photo {
   width: 60%;
   height: 40vh;
+  object-fit: contain;
+}
+
+.person-interface {
+  width: 50%;
+  height: 30vh;
+  object-fit: contain;
+}
+
+.strict-typing {
+  width: 60%;
+  height: 20vh;
   object-fit: contain;
 }

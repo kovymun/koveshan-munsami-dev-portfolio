@@ -22,6 +22,14 @@ export default function Blog() {
         <div className="projects-details flex flex-col justify-center items-center">
           <Link
             className="project-link rounded-lg text-black bg-white no-underline w-full text-lg text-center py-2 px-3.5 mb-8"
+            href="/interfaces"
+            target="_blank"
+          >
+            Interfaces in object-oriented programming languages and
+            prototype-based languages
+          </Link>
+          <Link
+            className="project-link rounded-lg text-black bg-white no-underline w-full text-lg text-center py-2 px-3.5 mb-8"
             href="/hashing"
             target="_blank"
           >

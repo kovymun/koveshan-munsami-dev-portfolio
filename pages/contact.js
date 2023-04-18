@@ -3,7 +3,7 @@
 import Layout from "../components/Layout";
 import Contact from "../components/contact-page-components/Contact";
 // import MyApp from "./_app";
-// import Script from "next/script";
+import Script from "next/script";
 
 /*
 Wrapped in the "global" layout component, the "contact" page renders all my contact details on the Developer Portfolio website. 
@@ -15,7 +15,7 @@ export default () => {
       <Layout>
         <Contact />
       </Layout>
-      {/* <Script
+      <Script
         strategy="afterInteractive"
         src="https://www.googletagmanager.com/gtag/js?id=G-G1C4FVXEZP"
       />
@@ -31,7 +31,7 @@ export default () => {
         page_path: window.location.pathname,});
       `,
         }}
-      /> */}
+      />
     </div>
   );
 };

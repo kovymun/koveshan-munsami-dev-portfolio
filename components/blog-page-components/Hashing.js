@@ -55,7 +55,7 @@ export default function Hashing() {
           </ol>
           <p className="mt-3">
             The aim of the website/database administrator is to ensure that the
-            user’s password is stored in the database securely. If the password
+            user's password is stored in the database securely. If the password
             is stored in plain text format, it is considered to be the most
             unsafe option, as any hack or data server breach will expose all
             user account credentials with little to no effort. As a second
@@ -66,8 +66,8 @@ export default function Hashing() {
             making it a single point of failure. These methods are insecure and
             expose the users account credentials to hackers and criminals. This
             is where the concept of hashing comes in. Using a hashing function,
-            the user’s password is “scrambled”, and the generated hash value is
-            stored in the database. This provides a secure way to store a user’s
+            the user's password is “scrambled”, and the generated hash value is
+            stored in the database. This provides a secure way to store a user's
             password in the database without the need for decryption.
           </p>
           <p className="mt-3">

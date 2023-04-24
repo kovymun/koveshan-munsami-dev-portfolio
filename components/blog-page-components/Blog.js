@@ -29,6 +29,13 @@ export default function Blog() {
           </Link>
           <Link
             className="project-link rounded-lg text-black bg-white no-underline w-full text-lg text-center py-2 px-3.5 mb-8"
+            href="/big-o-notation"
+            target="_blank"
+          >
+            Big-O-Notation basics for Web Developers
+          </Link>
+          <Link
+            className="project-link rounded-lg text-black bg-white no-underline w-full text-lg text-center py-2 px-3.5 mb-8"
             href="/interfaces"
             target="_blank"
           >

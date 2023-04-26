@@ -39,7 +39,11 @@ export default function Skills() {
               <p className="bg-white text-charcoal-black p-2">CSS</p>
               <p className="bg-white text-charcoal-black p-2">JavaScript</p>
               <p className="bg-white text-charcoal-black p-2">Bootstrap V5</p>
+              <p className="bg-white text-charcoal-black p-2">
+                React-Bootstrap
+              </p>
               <p className="bg-white text-charcoal-black p-2">ReactJS</p>
+              <p className="bg-white text-charcoal-black p-2">NextJS</p>
             </div>
           </div>
         </div>

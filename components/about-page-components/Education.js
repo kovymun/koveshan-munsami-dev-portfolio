@@ -1,6 +1,10 @@
 /**DEVELOPER PORTFOLIO EDUCATION DETAILS COMPONENT**/
 /**KINDLY REFER TO THE END OF THIS DOCUMENT FOR ALL REFERENCES**/
 
+import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCertificate } from "@fortawesome/free-solid-svg-icons";
+
 /*
 Developer Portfolio - Education details Component:
 The component renders all my education history, to be included as a child component in the "about" page of the Developer Portfolio website.
@@ -22,6 +26,16 @@ export default function Education() {
           <p className="education-qual text-xl">
             Full Stack Web Development Bootcamp | Hyperion Dev | 2023
           </p>
+          <Link
+            className="text-xl"
+            href="https://drive.google.com/file/d/1WohyuONNJbhKnVQesV-FpGmXpv-j9KpN/view?usp=share_link"
+            target="_blank"
+          >
+            <span className="cert-icon mr-4 ">
+              <FontAwesomeIcon icon={faCertificate} />
+            </span>
+            Bootcamp Certificate of Completion
+          </Link>
         </div>
       </div>
     </div>
